@@ -2,5 +2,5 @@ theme: jekyll-theme-modernist
 
 jekyll_get_json:
     data: repos
-    json: 'https://api.github.com/users/benwtks/repos'
+    json: 'https://api.github.com/kikukeii/semester-5'
     cache: true
