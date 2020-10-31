@@ -1,5 +1,6 @@
 <h1>Preview : <a href="https://kikukeii.github.io/semester-5/Pemrograman-Web-Dasar/source-code/laundry/">Klik Disini</a></h1>
 <br>
+
 ```
 laundry
 ├─ assets
@@ -20,7 +21,4 @@ laundry
 │  └─ trimakasih.html
 ├─ index.html
 └─ readme.md
-
-```
-
 ```
