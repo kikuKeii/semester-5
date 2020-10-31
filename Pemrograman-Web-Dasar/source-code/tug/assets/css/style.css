@@ -1,0 +1,141 @@
+/* Dibuat oleh 
+Nama    : Miftakhuddin Falaki
+Npm     : 201843501551
+kelas   : R5W 
+ untuk memenuhi tugas pemrograman web dasar */
+
+*{
+    margin: 0px auto;
+}
+html, body{
+    height: 100%;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    
+}
+body{
+background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+.container{
+    min-height: 100%;
+    position: relative;
+}
+.header{
+    padding: 10px;
+    border-bottom: 1px;
+    color: #fff;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.content{
+    padding: 10px;
+    padding-bottom: 60px;
+}
+.tavel{
+    background: #fff;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+}
+.comen{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.footer{
+    height: 50px;
+    line-height: 50px;
+    background: #777777;;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+/* nav */
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    
+   } 
+
+   nav ul ul {
+    display: none;
+   }
+
+   nav ul li:hover > ul{
+   display: block;
+   width: 150px;
+   
+   }
+
+   nav ul {
+    background: transparent;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+   }
+
+   nav ul:after {
+    content: ""; 
+    clear:both; 
+    display: block;
+   }
+
+   nav ul li{
+    float:left;
+   }
+
+   nav ul li:hover{
+    background: rgba(153, 153, 153, 0.404)122, 117, 117);
+   }
+
+   nav ul li:hover a{
+    color:#fff;
+   }
+
+   nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+   }
+
+   nav ul ul{
+    background: transparent;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top:100%;
+   }
+
+   nav ul ul li{
+    float:none;
+    border-top: 1px soild #ffffff;
+    border-bottom: 1px solid #ffffff;
+    position: relative;
+   }
+
+   nav ul ul li a{
+    padding: 15px 40px;
+    color: #fff;
+   }
+
+   nav ul ul li a:hover{
+    background-color: rgba(153, 153, 153, 0.404)122, 117, 117);
+   }
+
+   nav ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+   }

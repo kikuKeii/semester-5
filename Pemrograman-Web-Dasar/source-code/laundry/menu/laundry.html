@@ -1,0 +1,160 @@
+<!-- 
+Nama : Miftakhuddin Falaki
+Npm : 201843501551
+Kelas : R5W -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Laundry</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/laundry.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <h1 style="padding-left: 25px;">SISTEM INFORMASI LOUNDRY</h1>
+                </li>
+                <li>
+                    <a href="./home.html" style="margin-left: 480px;">Home</a>
+                </li>
+                <li>
+                    <a href="../menu/laundry.html">Jasa Laundry</a>
+                </li>
+                <li>
+                    <a href="../menu/daftar.html">Daftar/Masuk</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrap">
+        <aside class="sidebar">
+            <div class="widget">
+                <h2>Butuh bantuan untuk pesan?</h2>
+                <div class="card-body">
+                    <ul class="question_help_list">
+                        <li>Contact : 0838073039260 / kikukeii@outlook.com </li>
+                        <li> (Weekday 8am-7pm, Weekend/Holiday 8am-6pm)</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="widget">
+                <h2>Nilai lebih jasa kami</h2>
+                <div class="card-body">
+                    <ul class="question_help_list">
+                        <p><strong>Jasa Laundry Terbaik di Jakarta</strong></p>
+                        <ul>
+                            <li>Praktis, bersih, dan rapi</li>
+                            <li>Gratis antar jemput</li>
+                            <li>Proses terpisah setiap laundry</li>
+                        </ul>
+                        <p>&nbsp;</p>
+                        <p><strong>Jenis Layanan</strong><br><strong>- Laundry Regular</strong><br>Durasi pengerjaan 3-4
+                            hari<br><strong>- Laundry Ekspress</strong><br>Durasi pengerjaan 2 hari</p>
+                        <p><br><strong>Nilai Lebih </strong><br>- Kami hanya menggunakan pekerja profesional yang
+                            paling berpengalaman untuk memastikan kualitas layanan yang terbaik. Kepuasan pelanggan kami
+                            adalah prioritas utama kami<br>- Bebas repot, dilayani oleh customer service profesional dan
+                            ramah yang dapat dihubungi 7 hari dalam seminggu<br>- Bebas atur jadwal antar jemput pakaian
+                        </p>
+                        <p>&nbsp;</p>
+                        <p><strong>Pemberitahuan</strong><br>Pesanan akan dibatalkan secara otomatis apabila pemesan
+                            tidak dapat diverifikasi dalam kurun waktu 24 jam sejak pemesanan layanan</p>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="blog">
+            <div class="conteudo">
+                <h1>Pilih Laundry Kiloan </h1>
+                <hr>
+                <form id="regForm" action="../proses/proses.html">
+                    <div class="tab">
+                        <label class="container">Express (1 - 2 hari)
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Regular (3 - 4 hari)
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <hr><br>
+                        <h1>Pilih Waktu Pengambilan</h1><br>
+                        Tanggal Pengambilan :
+                        <p><input placeholder="yy-mm-dd" oninput="this.className = ''" name="ftanggal" type="date"></p>
+                        Waktu Pengambilan :
+                        <div class="select">
+                            <select oninput="this.className = ''" name="fantar">
+                                <option value="">Waktu Pengabilan</option>
+                                <option value="8:00" data-value="8:00">8:00</option>
+                                <option value="9:00" data-value="9:00">9:00</option>
+                                <option value="10:00" data-value="10:00">10:00</option>
+                                <option value="11:00" data-value="11:00">11:00</option>
+                                <option value="12:00" data-value="12:00">12:00</option>
+                                <option value="13:00" data-value="13:00">13:00</option>
+                                <option value="14:00" data-value="14:00">14:00</option>
+                                <option value="15:00" data-value="15:00">15:00</option>
+                                <option value="16:00" data-value="16:00">16:00</option>
+                                <option value="17:00" data-value="17:00">17:00</option>
+                                <option value="18:00" data-value="18:00">18:00</option>
+                            </select>
+                            <div class="select_arrow">
+                            </div>
+                        </div>
+                        <hr>
+                        Waktu Pengantaran :
+                        <div class="select">
+                            <select oninput="this.className = ''" name="fpgbl">
+                                <option value="">Waktu Pengantaran</option>
+                                <option value="8:00" data-value="8:00">8:00</option>
+                                <option value="9:00" data-value="9:00">9:00</option>
+                                <option value="10:00" data-value="10:00">10:00</option>
+                                <option value="11:00" data-value="11:00">11:00</option>
+                                <option value="12:00" data-value="12:00">12:00</option>
+                                <option value="13:00" data-value="13:00">13:00</option>
+                                <option value="14:00" data-value="14:00">14:00</option>
+                                <option value="15:00" data-value="15:00">15:00</option>
+                                <option value="16:00" data-value="16:00">16:00</option>
+                                <option value="17:00" data-value="17:00">17:00</option>
+                                <option value="18:00" data-value="18:00">18:00</option>
+                            </select>
+                            <div class="select_arrow">
+                            </div>
+                        </div>
+                        <hr>
+                        <h2>Total : Rp. 100.000.00,-</h2>
+                    </div>
+                    <div class="tab">Phone :
+                        <p><input placeholder="Phone..." oninput="this.className = ''" name="phone" type="number"
+                                value="62"></p>
+                        Alamat :
+                        <p><input placeholder="Alamat" oninput="this.className = ''" name="alamat" type="text-area"></p>
+                    </div>
+                    <div class="tab">Login :
+                        <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
+                        <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password">
+                        </p>
+                    </div>
+                    <div style="overflow:auto;">
+                        <div style="float:right;">
+                            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Sebelumnya</button>
+                            <button type="button" id="nextBtn" onclick="nextPrev(1)">Lanjut</button>
+                        </div>
+                    </div>
+                    <!-- Circles which indicates the steps of the form: -->
+                    <div style="text-align:center;margin-top:40px;">
+                        <span class="step"></span>
+                        <span class="step"></span>
+                        <span class="step"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/js/js.js"></script>
+</body>
+
+</html>

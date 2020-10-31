@@ -1,0 +1,113 @@
+<!-- 
+Nama : Miftakhuddin Falaki
+Npm : 201843501551
+Kelas : R5W -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SISTEM INFORMASI LOUNDRY</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <h1 style="padding-left: 25px;">SISTEM INFORMASI LOUNDRY</h1>
+                </li>
+                <li>
+                    <a href="./home.html" style="margin-left: 480px;">Home</a>
+                </li>
+                <li>
+                    <a href="../menu/laundry.html">Jasa Laundry</a>
+                </li>
+                <li>
+                    <a href="../menu/daftar.html">Daftar/Masuk</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrap">
+        <aside class="sidebar">
+            <div class="widget">
+                <h2>Butuh bantuan untuk pesan?</h2>
+                <div class="card-body">
+                    <ul class="question_help_list">
+                        <li>Contact : 0838073039260 / kikukeii@outlook.com </li>
+                        <li> (Weekday 8am-7pm, Weekend/Holiday 8am-6pm)</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="widget">
+                <h2>Nilai lebih jasa kami</h2>
+                <div class="card-body">
+                    <ul class="question_help_list">
+                        <p><strong>Jasa Laundry Terbaik di Jakarta</strong></p>
+                        <ul>
+                            <li>Praktis, bersih, dan rapi</li>
+                            <li>Gratis antar jemput</li>
+                            <li>Proses terpisah setiap laundry</li>
+                        </ul>
+                        <p>&nbsp;</p>
+                        <p><strong>Jenis Layanan</strong><br><strong>- Laundry Regular</strong><br>Durasi pengerjaan
+                            3-4
+                            hari<br><strong>- Laundry Ekspress</strong><br>Durasi pengerjaan 2 hari</p>
+                        <p><br><strong>Nilai Lebih </strong><br>- Kami hanya menggunakan pekerja profesional yang
+                            paling berpengalaman untuk memastikan kualitas layanan yang terbaik. Kepuasan pelanggan
+                            kami
+                            adalah prioritas utama kami<br>- Bebas repot, dilayani oleh customer service profesional
+                            dan
+                            ramah yang dapat dihubungi 7 hari dalam seminggu<br>- Bebas atur jadwal antar jemput
+                            pakaian
+                        </p>
+                        <p>&nbsp;</p>
+                        <p><strong>Pemberitahuan</strong><br>Pesanan akan dibatalkan secara otomatis apabila pemesan
+                            tidak dapat diverifikasi dalam kurun waktu 24 jam sejak pemesanan layanan</p>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="blog">
+            <div class="conteudo">
+                <h1></h1>
+                <img src="../assets/img/banner2.jpg" alt="">
+                <button onclick="document.getElementById('id01').style.display='block'"
+                    style="width:auto;">Masuk</button>
+
+                <div id="id01" class="modal">
+
+                    <form class="modal-content animate" action="./laundry.html" method="post">
+                        <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                                title="Close Modal">&times;</span>
+                            <img src="../assets/img/img_avatar2.png" alt="Avatar" class="avatar">
+                        </div>
+
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit">Masuk</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </div>
+
+                        <div class="container" style="background-color:#f1f1f1">
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
