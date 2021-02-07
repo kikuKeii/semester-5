@@ -1,0 +1,29 @@
+body {
+  background-color: green;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffffa9;
+}
+table {
+  width: 220px;
+  height: 120px;
+}
+
+table #head {
+  background-color: blue;
+  color: yellow;
+}
+#table1 th,
+td {
+  text-align: center;
+}
+#table1 #akhir #left {
+  text-align: left;
+}
+#table2 {
+  text-align: center;
+  border: 5px solid red;
+}
+#table2 #data {
+  padding-bottom: 10px;
+  color: #ffffff;
+}

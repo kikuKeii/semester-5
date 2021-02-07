@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomor 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            background-color: honeydew;
+        }
+
+        #header img {
+            margin-left: 401px;
+            width: 100px;
+            text-align: center;
+        }
+
+        .title {
+            float: right;
+            padding-right: 400px;
+        }
+
+        #title {
+            font-size: 24px;
+        }
+
+        #alamat {
+            font-size: 14px;
+        }
+
+        .form #title {
+            text-align: center;
+            font-size: 24px;
+            font-family: 'Cutive Mono', monospace;
+        }
+
+        #table-barang {
+            width: 80%;
+        }
+
+        #table-barang #head {
+            background-color: greenyellow;
+        }
+
+        #table-barang #col2 {
+            background-color: #969696;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <img src="./image.png" alt="">
+        <div class="title">
+            <p id="title">UNIVERSITAS INDRAPRASTA PGRI <br>
+                <i id="alamat"><b>Jl. Nangka No. 58 Tanjung Barat - Jaksel</b></i>
+            </p>
+        </div>
+    </header>
+    <br><br><br>
+    <hr size="5px">
+
+    <form action="">
+        <p>
+            NPM :.......... <br>
+            NAMA :......... <br>
+            KELAS :........
+        </p>
+        <div class="form">
+            <div id="title">
+                <h2>FORM DATA BARANG</h2>
+                <h2>TAHUN 2020</h2>
+            </div>
+
+            <table align="center">
+                <tr>
+                    <td>Kode Barang</td>
+                    <td>:</td>
+                    <td><input type="text" name="kodebarang"></td>
+                </tr>
+                <tr>
+                    <td>Nama Barang</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td>Keterangan</td>
+                    <td>:</td>
+                    <td><textarea name="ket" id="" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Jenis</td>
+                    <td>:</td>
+                    <td><select name="" id="">
+                            <option value="">Kayu</option>
+                            <option value="besi">Plastik</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>harga</td>
+                    <td>:</td>
+                    <td><input type="number" name="harga" id=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit" value="Kirim"> <input type="reset" value="Batal"></td>
+            </table>
+        </div>
+    </form>
+    <br>
+    <table border="1" align="center" id="table-barang">
+        <tr id="head" align="center">
+            <td>Kode Barang</td>
+            <td>Nama Barang</td>
+            <td>Keterangan</td>
+            <td>Jenis</td>
+            <td>Harga</td>
+        </tr>
+        <tr>
+            <td>65465</td>
+            <td>Bangku</td>
+            <td>Oke</td>
+            <td>Plastik</td>
+            <td>50000</td>
+        </tr>
+        <tr id="col2">
+            <td>4435</td>
+            <td>Bangku</td>
+            <td>Oke</td>
+            <td>Kayu</td>
+            <td>60000</td>
+        </tr>
+    </table>
+</body>
+
+</html>

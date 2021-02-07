@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    i = <input type="number" id="i" name="i">
+    <button id="hitung" onclick="hitung()">Hitung</button>
+
+    <p id="hasil"></p>
+    <script type="text/javascript">
+        function hitung() {
+            var i = document.getElementById("i");
+            var t = i % 3;
+            if (true) {
+                tulisan = "TI";
+
+            } else {
+                tulisan = "ERROR";
+            }
+
+            document.getElementById("hasil").innerHTML = t;
+        }
+    </script>
+</body>
+
+</html>

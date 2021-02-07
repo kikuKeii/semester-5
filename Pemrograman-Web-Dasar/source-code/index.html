@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Mhs</title>
+    <style>
+        #header img {
+            margin-left: 401px;
+            width: 100px;
+        }
+
+        .title {
+            float: right;
+            padding-right: 400px;
+        }
+
+        #title {
+            font-size: 24px;
+        }
+
+        #alamat {
+            font-size: 18px;
+            padding-top: 0px;
+        }
+
+        .content {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+
+        .content h2 {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header align="center" id="header">
+        <img src="./image.png" alt="">
+        <div class="title">
+            <p id="title">UNIVERSITAS INDRAPRASTA PGRI <br> (UNINDRA) <br>
+                <i id="alamat"><b>Jl. Nangka No. 58 Tanjung Barat - Jaksel</b></i>
+            </p>
+        </div>
+    </header>
+    <br><br><br>
+    <hr size="5px" color="blue">
+    <form action="">
+        <div class="content" align="center">
+            <h2>BIODATA MAHASISWA</h2>
+            <table>
+                <tr>
+                    <td>NAMA</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td>ALAMAT</td>
+                    <td>:</td>
+                    <td><textarea name="alamat" id="" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>TANGGAL LAHIR</td>
+                    <td>:</td>
+                    <td><input type="text" name="tgl_lahir" placeholder="mm/dd/yyyy"></td>
+                </tr>
+                <tr>
+                    <td>TELP</td>
+                    <td>:</td>
+                    <td><input type="number" name="telp" id=""></td>
+                </tr>
+                <tr>
+                    <td>EMAIL</td>
+                    <td>:</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit" id="button" value="SIMPAN"> <input type="reset" id="button" value="BATAL">
+                    </td>
+            </table>
+        </div>
+    </form>
+</body>
+
+</html>

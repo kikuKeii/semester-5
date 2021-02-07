@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomor 3</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Gaji Pokok</td>
+            <td>:</td>
+            <td><input type="number" id="gaji-pokok" name="gaji-pokok" value=""></td>
+        </tr>
+        <tr>
+            <td>Uang Lembur</td>
+            <td>:</td>
+            <td><input type="number" id="uang-lembur" name="uang-lembur" value=""></td>
+        </tr>
+        <tr>
+            <td>Tunjangan</td>
+            <td>:</td>
+            <td><input type="number" id="tunjangan" name="tunjangan" value=""></td>
+        </tr>
+        <tr>
+            <td>Utang</td>
+            <td>:</td>
+            <td><input type="number" id="utang" name="utang" value=""></td>
+        </tr>
+    </table>
+    <button id="hitung" onclick="hitung()">Hitung</button>
+
+    <p id="gajil"></p><br>
+    <p id="keterangan">
+    <p>
+        <script type="text/javascript">
+            function hitung() {
+                var gp = parseInt(document.getElementById("gaji-pokok").value);
+                var ul = parseInt(document.getElementById("uang-lembur").value);
+                var t = parseInt(document.getElementById("tunjangan").value);
+                var u = parseInt(document.getElementById("utang").value);
+                var karyawan;
+                var gaji = gp + ul + t - u;
+                if (gaji <= 5000000) {
+                    karyawan = "Karyawan Golongan Honor";
+                } else if (gaji >= 5000000 && gaji <= 10000000) {
+                    karyawan = "Karyawan golongan Kontrak";
+                } else if (gaji >= 10000000) {
+                    karyawan = "Karyawan Golongan Tetap";
+                }
+
+                document.getElementById("gajil").innerHTML = "Gaji yang didapatkan " + gaji;
+                document.getElementById("keterangan").innerHTML = karyawan;
+            }
+        </script>
+</body>
+
+</html>
